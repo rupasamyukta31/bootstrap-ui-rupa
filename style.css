@@ -1,0 +1,126 @@
+:root{
+    --text: #222222;
+    --white: #FFFFFF;
+   --primary:#1C5D99;
+    --secondary: #639FAB;
+     --success: #339900;
+     --danger:#FF0000;
+    --warning: #ff9966;
+    --info: #BBCDE5;
+    
+  }
+  
+  body{
+   font-family:"Roboto", sans-seriff;
+  }
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .btn-primary{
+    background-color: var(--primary);
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+  }
+  .btn-primary:hover {
+    background-color: var(--secondary);
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 2px #1C5D99);
+  }
+  .btn-secondary{
+    background-color: var(--secondary);
+    border-color:var(--secondary);
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+  }
+  .btn-info{
+    background-color: var(--info);
+    border-color: var(--info);
+    Color: var(--primary);
+    filter: drop-shadow(2px 2px 3px #000000);
+  }
+  .btn-success{
+    background-color: var(--success);
+    border-color: var(--success);
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 3px #99cc33);
+  }
+  .btn-danger{
+    background-color: var(--danger);
+    border-color: #bb2124;
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 4px #bb2124);
+  }
+  .btn-warning{
+    background-color: var(--warning);
+    border-color: #bb2124;
+    Color: var(--text);
+    filter: drop-shadow(2px 2px 4px #f0ad4e);
+  }
