@@ -10,6 +10,33 @@
     
   }
   
+/* Define shades for primary and secondary colors */
+:root {
+  --primary-1: #1C5D99; /* Original primary color */
+  --primary-2: #165780; /* Darker shade */
+  --primary-3: #143f66; /* Even darker shade */
+  
+  --secondary-1: #639FAB; /* Original secondary color */
+  --secondary-2: #507f8b; /* Darker shade */
+  --secondary-3: #3c5f6b; /* Even darker shade */
+}
+
+/* Add styles for the color display */
+.color-sample {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+
   body{
    font-family:"Roboto", sans-seriff;
   }
@@ -29,24 +56,28 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: small;
   }
   
   .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: medium;
   }
   
   .roboto-bold {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: large;
   }
   
   .roboto-black {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: x-large;
   }
   
   .roboto-thin-italic {
