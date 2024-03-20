@@ -1,40 +1,84 @@
 :root{
     --text: #222222;
     --white: #FFFFFF;
-   --primary:#1C5D99;
-    --secondary: #639FAB;
      --success: #339900;
      --danger:#FF0000;
-    --warning: #ff9966;
-    --info: #BBCDE5;
-    
+    --warning: #ff9966;  
   }
   
-/* Define shades for primary and secondary colors */
+
 :root {
-  --primary-1: #1C5D99; /* Original primary color */
-  --primary-2: #165780; /* Darker shade */
-  --primary-3: #143f66; /* Even darker shade */
+  --primary-1: #00A58E; 
+  --primary-2: #009580;
+  --primary-3: #008472; 
   
-  --secondary-1: #639FAB; /* Original secondary color */
-  --secondary-2: #507f8b; /* Darker shade */
-  --secondary-3: #3c5f6b; /* Even darker shade */
+  --secondary-1: #ECF8F7; 
+  --secondary-2: #D6F0EC; 
+  --secondary-3: #BFE8E2; 
 }
 
 /* Add styles for the color display */
 .color-sample {
-  width: 100px;
-  height: 100px;
+  width: 100px; /* Width of the color sample */
+  height: 100px; /* Height of the color sample */
   display: inline-block;
-  margin: 10px;
+  margin: 0px;
+  border: 1px solid #000; /* Optional: adds a border around the color sample */
 }
 
 .label {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 5px;
 }
 
+.color-rectangle {
+  height: 50px; /* Height of the rectangle */
+  width: 200px; /* Width of the rectangle */
+  margin: 10px 0; /* Spacing above and below the rectangle */
+}
+
+.primary-color {
+  background-color: var(--primary-1);
+  height: 50px; 
+  width: 200px; 
+  margin: 10px 0;
+}
+
+.primary-shade-1 {
+  background-color: var(--primary-2);
+  height: 50px; 
+  width: 200px; 
+  margin: 10px 0;
+}
+
+.primary-shade-2 {
+  background-color: var(--primary-3);
+  height: 50px; 
+  width: 200px; 
+  margin: 10px 0;
+}
+
+.secondary-color {
+  background-color: var(--secondary-1);
+  height: 50px;
+  width: 200px; 
+  margin: 10px 0;
+}
+
+.secondary-shade-1 {
+  background-color: var(--secondary-2);
+  height: 50px; 
+  width: 200px; 
+  margin: 10px 0;
+}
+
+.secondary-shade-2 {
+  background-color: var(--secondary-3);
+  height: 50px;
+  width: 200px; 
+  margin: 10px 0;
+}
 
 
   body{
@@ -115,43 +159,39 @@
     font-weight: 900;
     font-style: italic;
   }
+  .btn-sm{
+    background-color: var(--primary-1);
+    Color: var(--white);
+    border-color:var(--primary-1);
+ 
+  }
+  .btn-sm:hover {
+    background-color: var(--primary-3);
+    border-color:var(--primary-3);
+    Color: var(--white);
+    filter: drop-shadow(2px 2px 3px #000000);
+  }
   .btn-primary{
-    background-color: var(--primary);
+    background-color: var(--primary-1);
+    border-color:var(--primary-1);
+    Color: var(--white);
+ 
+  }
+  .btn-primary:hover{
+    background-color: var(--primary-3);
+    border-color:var(--primary-3);
     Color: var(--white);
     filter: drop-shadow(2px 2px 3px #000000);
   }
-  .btn-primary:hover {
-    background-color: var(--secondary);
+  .btn-lg{
+    background-color: var(--primary-1);
+    border-color: var(--primary-1);
     Color: var(--white);
-    filter: drop-shadow(2px 2px 2px #1C5D99);
   }
-  .btn-secondary{
-    background-color: var(--secondary);
-    border-color:var(--secondary);
+  .btn-lg:hover{
+    background-color: var(--primary-3);
+    border-color: var(--primary-3);
     Color: var(--white);
     filter: drop-shadow(2px 2px 3px #000000);
   }
-  .btn-info{
-    background-color: var(--info);
-    border-color: var(--info);
-    Color: var(--primary);
-    filter: drop-shadow(2px 2px 3px #000000);
-  }
-  .btn-success{
-    background-color: var(--success);
-    border-color: var(--success);
-    Color: var(--white);
-    filter: drop-shadow(2px 2px 3px #99cc33);
-  }
-  .btn-danger{
-    background-color: var(--danger);
-    border-color: #bb2124;
-    Color: var(--white);
-    filter: drop-shadow(2px 2px 4px #bb2124);
-  }
-  .btn-warning{
-    background-color: var(--warning);
-    border-color: #bb2124;
-    Color: var(--text);
-    filter: drop-shadow(2px 2px 4px #f0ad4e);
-  }
+ 
