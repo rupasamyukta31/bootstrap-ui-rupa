@@ -200,10 +200,10 @@
     border-top: 1px solid #e7e7e7;
     position: relative;
     bottom: 0;
+    top: 100px;
     width: 100%;
   }
   
   .container.text-center {
     text-align: center;
   }
-  
