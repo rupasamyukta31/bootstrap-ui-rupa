@@ -207,3 +207,40 @@
   .container.text-center {
     text-align: center;
   }
+
+/* Navbar styling */
+.navbar.navbar-light.bg-light {
+  background-color: #D6F0EC !important;
+   /* Change background color */
+}
+
+
+.navbar-brand {
+  color:#008472 !important;
+  font-weight: bold !important; /* Change text color */
+}
+
+.navbar-nav .nav-link {
+  color:#00A58E !important; /* Change text color */
+}
+
+.navbar-nav .nav-link:hover {
+  color:#008472 !important;
+  font-weight:500 !important; /* Change text color on hover */
+}
+
+.navbar-toggler-icon {
+  background-color : #ffffff !important; /* Change toggler icon color */
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+  color:#008472 !important; 
+  font-weight:500 !important;/* Change active link text color */
+}
+
+/* Disabled link styling */
+.navbar-nav .nav-link.disabled {
+  color: #b4b6b8 !important; /* Change disabled link text color */
+}
+
